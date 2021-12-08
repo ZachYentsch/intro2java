@@ -7,3 +7,10 @@ body{
 main{
    flex-grow: 1; 
 }
+
+.background-img{
+background-image: url(https://media.istockphoto.com/vectors/baseball-stadium-vector-id166055606?k=6&m=166055606&s=612x612&w=0&h=vlOhbx6TcgrxFqhxYFYa-DpZ9ZKKaH0ZPG09m3zNyO4=);
+background-repeat: no-repeat;
+object-fit: contain;
+background-position: center;
+}

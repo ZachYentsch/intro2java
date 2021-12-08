@@ -20,20 +20,17 @@
         </div>
     </header>
 
-    <main class="container">
-        <div class="row p-3">
-            <div class="col-6 text-left">
-                <h3 id="tm1"></h3>
-                <h1>Score: <span id="team1"></span></h1>
-                <button class="btn btn-primary btn-lg mx-3" onclick="single('team1')">single</button>
-                <h4 id="phrase"></h4>
+    <main class="container-fluid">
+        <div class="row">
+            <div class="col-12 bg-warning">
+                <h1>SAVANNAH BANANAS</h1>
+                <h3>Runs: <span id="score"></span></h3>
+                <h3>Bases: <span id="total"></span></h3>
+                <button class="btn btn-primary btn-lg m-2" onclick="hitAll('')">HIT</button>
+                <ul id="list" class="row">
+                </ul>
             </div>
-            <div class="col-6 text-center">
-                <h3 id="tm2"></h3>
-                <h1>Score: <span id="team2"></span></h1>
-                <button class="btn btn-primary btn-lg mx-3" onclick="single1('team2')">single</button>
-                <h4></h4>
-            </div>
+        </div>
         </div>
 
 
